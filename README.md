@@ -29,8 +29,10 @@ $ python3 --version
 For start release:
 ```python
 from Yandex import Yandex
+
 yandex = Yandex()
 yandex.auth('Username', 'Password')
+
 print(yandex.profile)
 ```
 
